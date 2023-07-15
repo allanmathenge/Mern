@@ -20,3 +20,5 @@
 18. [] Only managers and Admins can access user Settings
 19. [] Only Managers and Admins can create new users
 20. [] Desktop mode is most important but should be available in mobile
+
+# MD is markdown file just like readme
