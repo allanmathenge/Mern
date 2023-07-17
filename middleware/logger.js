@@ -14,7 +14,7 @@ const logEvents = async (message, logFilename) => {
         }
         await fsPromises.appendFile(path.join(__dirname, '..', 'logs', logFilename), logItem);
     } catch(err) {
-        console.log(err)
+        console.log(err);
     }
 }
 //the actual middleware

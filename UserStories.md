@@ -8,8 +8,8 @@
 6. [] Display current user and assigned role
 7. [] Provide Logout option
 8. [] Require users to Login at least once per week
-9. [] Provide a way to remove employee acccess asap if needed
-10. [] Notes are assigned to specific employee
+9. [] Provide a way to remove user acccess asap if needed
+10. [] Notes are assigned to specific user
 11. [] Notes have a ticket number, title, note body, created and updated dates
 12. [] Notes are either OPEN or COMPLETED
 13. [] Users can be Employees, Managers or Admins
