@@ -26,6 +26,7 @@ app.use('/', express.static(path.join(__dirname, 'public'))); //app.use(express.
 
 app.use('/', require('./routes/root'));
 app.use('/users', require('./routes/userRoutes')); //users is an endpoint route is request
+app.use('/notes', require('./routes/noteRoutes'));
 
 app.all('*', (req, res) => {
     res.status(404);
