@@ -9,7 +9,7 @@ const DashFooter = () => {
 
     const onGoHomeClicked = () => ('/dash')
 
-    let goHomeButton = null;
+    let goHomeButton = null
     if (pathname !== '/dash'){
         goHomeButton = (
             <button
