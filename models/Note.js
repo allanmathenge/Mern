@@ -1,5 +1,5 @@
-const mongoose = require('mongoose');
-const AutoIncrement = require('mongoose-sequence')(mongoose);
+const mongoose = require('mongoose')
+const AutoIncrement = require('mongoose-sequence')(mongoose)
 
 const noteSchema = new mongoose.Schema(
     {
@@ -12,10 +12,10 @@ const noteSchema = new mongoose.Schema(
             type: String,
             required: true
         },
-        text: [{
+        text: {
             type: String,
             required: true
-        }],
+        },
         completed: {
             type: Boolean,
             default: false
